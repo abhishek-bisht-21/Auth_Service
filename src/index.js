@@ -33,9 +33,9 @@ const prepareAndStartServer = () => {
 		// const newToken = service.createToken({emaiL:'abhishek.bisht.21@gmail.com', id:1});
 		// console.log("New token is", newToken);
 
-		const u1 = await User.findByPk(2);
-		const r1 = await Role.findByPk(2);
-		u1.addRole(r1);
+		// const u1 = await User.findByPk(2);
+		// const r1 = await Role.findByPk(2);
+		// u1.addRole(r1);
 
 		console.log("Server started at port", PORT);
 	})
